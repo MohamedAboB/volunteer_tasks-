@@ -144,10 +144,12 @@ body {
 .input-field:focus, .message-field:focus {
     background-color: lightslategrey;
     border-color: teal;
+    transform: scale(1.05);
 }
 
 .submit-btn:hover {
     background-color: rgb(6, 58, 58);
+    transform: scale(1.05);
 }
 /* Responsive design */
 @media (max-width: 768px) {
