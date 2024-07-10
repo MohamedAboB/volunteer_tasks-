@@ -34,8 +34,18 @@
                 <input type="tel" placeholder="Phone" class="input-field">
             </div>
             <textarea class="message-field" placeholder="Type your message here"></textarea>
-            <button class="submit-btn">Send Now</button>
+            <span class="submit-btn" onclick="showPopup()">Send Now</span>
         </form>
     </div>
+
+    <!-- Popup Container -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <p>Welcome to our website</p>
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
